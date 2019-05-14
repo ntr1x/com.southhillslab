@@ -1,4 +1,4 @@
-# Support Portal
+# SouthHillsLab Public Site
 
 Git super-tree
 
