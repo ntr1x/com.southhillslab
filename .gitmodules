@@ -1,0 +1,8 @@
+[submodule "com.southhillslab.web"]
+	path = com.southhillslab.web
+	url = ../com.southhillslab.web
+	branch = master
+[submodule "com.southhillslab.starter"]
+	path = com.southhillslab.starter
+	url = ../com.southhillslab.starter
+	branch = master
