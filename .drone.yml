@@ -9,8 +9,9 @@ clone:
 steps:
 - name: deploy
   commands:
+  - id
   - git clone git@github.com:ntr1x/com.southhillslab.starter.git
-  - cd com.southhillslab.starter
+  - cd ./com.southhillslab.starter
   - yarn rebuild:web
   - yarn restart:web
   when:
