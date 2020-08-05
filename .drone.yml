@@ -1,0 +1,17 @@
+---
+kind: pipeline
+type: exec
+name: default
+
+clone:
+  disable: true
+
+steps:
+- name: deploy
+  commands:
+  - git clone git@github.com:ntr1x/com.southhillslab.starter.git
+  - cd com.southhillslab.starter
+  - yarn rebuild:web
+  - yarn restart:web
+  when:
+    branch: master
