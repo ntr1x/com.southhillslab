@@ -1,6 +1,7 @@
 # SouthHillsLab Public Site
 
-Git super-tree
+Git super-tree.
+Just push to update server.
 
 ## Install shorthands
 
